@@ -1,5 +1,9 @@
 # ode_solver
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Methods](https://img.shields.io/badge/Methods-RK1--RK4%20%7C%20AB4%20%7C%20PC4-orange)
+
 Librería en Python para resolver sistemas de ecuaciones diferenciales
 ordinarias (EDOs) mediante métodos de **Runge-Kutta** (órdenes 1 a 4) y
 métodos **multipaso** (Adams-Bashforth y Predictor-Corrector). Como caso de
@@ -113,7 +117,23 @@ EDO, no solo el motor.
 
 ---
 
-## Experimentos y resultados
+## Resultados
+
+### Simulación de referencia — RK4 con paso fino
+
+![Simulación RK4](img/simulacion_rk4.png)
+
+### Comparación de los seis métodos
+
+![Comparación de métodos](img/comparacion_metodos.png)
+
+### Orden de convergencia (escala log-log)
+
+![Convergencia log-log](img/convergencia_loglog.png)
+
+---
+
+## Análisis
 
 **1. Convergencia (precisión).** Se mide el error en escala log-log frente al
 paso `h`. La pendiente de cada recta coincide con el orden teórico del método:

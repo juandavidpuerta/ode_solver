@@ -21,3 +21,6 @@ env/
 *.html
 *.pptx
 Graficos de simulaciones/
+
+# Imágenes — solo se versiona img/
+# (las de Graficos de simulaciones ya están excluidas arriba)
